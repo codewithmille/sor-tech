@@ -69,6 +69,7 @@ export default function FAQ(): React.JSX.Element {
                     aria-expanded={isOpen}
                     aria-controls={`faq-answer-${id}`}
                     style={{ color: '#111827' }}
+                    suppressHydrationWarning={true}
                   >
                     <span className="text-sm sm:text-base" style={{ color: isOpen ? '#2563EB' : '#111827' }}>{q}</span>
                     <div
