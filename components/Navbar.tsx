@@ -69,7 +69,7 @@ export default function Navbar(): React.JSX.Element {
           <Link
             href="#contact"
             id="nav-cta"
-            className="hidden md:inline-flex btn-primary text-sm py-2.5 px-5"
+            className="!hidden md:!inline-flex btn-primary text-sm py-2.5 px-5"
           >
             Get a Free Quote
           </Link>
