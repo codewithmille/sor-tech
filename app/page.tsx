@@ -12,6 +12,7 @@ import FAQ from '@/components/FAQ';
 import EarlyAccessCTA from '@/components/EarlyAccessCTA';
 import FinalCTA from '@/components/FinalCTA';
 import Footer from '@/components/Footer';
+import QuickChatWidget from '@/components/QuickChatWidget';
 
 export const metadata = {
   title: 'Sortech — Professional Web Design Agency',
@@ -61,6 +62,7 @@ export default function Home(): React.JSX.Element {
         <EarlyAccessCTA />
       </main>
       <Footer />
+      <QuickChatWidget />
     </>
   );
 }
