@@ -18,6 +18,7 @@ const LINKS = {
     { label: 'Contact Us', href: '#contact' },
   ],
   Contact: [
+    { label: 'WhatsApp: +63 906 301 4320', href: 'https://wa.me/639063014320' },
     { label: 'hello@sortech.io', href: 'mailto:hello@sortech.io' },
     { label: 'Get a Free Quote', href: '#contact' },
   ],
