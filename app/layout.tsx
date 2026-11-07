@@ -15,24 +15,36 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sortech — Digital Agency | We Build Websites That Work",
+  title: "Sortech — Professional Web Design & Development Agency",
   description:
-    "Sortech is a startup digital agency helping businesses grow online. Custom web design, e-commerce, SEO, and web apps — fast delivery, real results.",
+    "Sortech builds high-converting, professional websites and custom web apps for growing businesses. Transparent milestone pricing and 14-day launch guarantee.",
   keywords: [
-    "web design",
-    "web development",
-    "digital agency",
-    "Sortech",
-    "freelance",
-    "e-commerce",
-    "SEO",
-    "web app",
+    "web design Philippines",
+    "web development agency",
+    "custom website developer",
+    "Sortech digital agency",
+    "freelance web developer",
+    "e-commerce website",
+    "landing page design",
+    "business website developer",
   ],
+  authors: [{ name: "Sortech" }],
+  creator: "Sortech",
+  publisher: "Sortech",
   openGraph: {
-    title: "Sortech — Digital Agency | We Build Websites That Work",
+    title: "Sortech — Professional Web Design & Development Agency",
     description:
-      "Sortech helps businesses grow online with custom web design, development, and SEO. Get your free quote today.",
+      "We design and build websites that generate leads, establish credibility, and help your business grow 24/7. Get a free quote or 5-min audit today.",
+    url: "https://sortech.io",
+    siteName: "Sortech",
+    locale: "en_PH",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sortech — Professional Web Design & Development Agency",
+    description:
+      "We design and build websites that generate leads and build credibility. 50% milestone payments & 14-day launch guarantee.",
   },
 };
 

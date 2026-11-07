@@ -15,9 +15,15 @@ import Footer from '@/components/Footer';
 import QuickChatWidget from '@/components/QuickChatWidget';
 
 export const metadata = {
-  title: 'Sortech — Professional Web Design Agency',
+  title: 'Sortech — Professional Web Design & Development Agency',
   description:
-    'Sortech builds professional websites that help businesses grow online. Web design, e-commerce, SEO, and more. Get a free quote today.',
+    'Sortech builds professional websites that help businesses grow online. Custom web design, e-commerce stores, and web apps. Get a free quote or 5-min audit today.',
+  openGraph: {
+    title: 'Sortech — Professional Web Design & Development Agency',
+    description:
+      'We build high-converting websites for businesses. 50% milestone payments & 14-day launch guarantee. Claim your free audit today.',
+    type: 'website',
+  },
 };
 
 export default function Home(): React.JSX.Element {
