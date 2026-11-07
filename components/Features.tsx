@@ -58,13 +58,15 @@ const SERVICES: Service[] = [
     ),
   },
   {
-    id: 'seo',
-    title: 'SEO Optimization',
-    description: 'Rank higher on Google with technical SEO, on-page optimization, and ongoing performance tracking.',
-    features: ['Keyword research', 'Technical SEO', 'Core Web Vitals', 'Monthly reports'],
+    id: 'web-apps',
+    title: 'Custom Web Applications',
+    description: 'Tailored web portals, booking tools, and internal systems built to automate and streamline your business operations.',
+    features: ['Custom workflows', 'Database integration', 'User authentication', 'API connections'],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5" aria-hidden="true">
-        <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" />
+        <polygon points="12 2 2 7 12 12 22 7 12 2" />
+        <polyline points="2 17 12 22 22 17" />
+        <polyline points="2 12 12 17 22 12" />
       </svg>
     ),
   },

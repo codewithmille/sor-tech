@@ -8,7 +8,7 @@ const PROJECT_TYPES = [
   'E-Commerce Website',
   'Landing Page',
   'Website Redesign',
-  'SEO Optimization',
+  'Custom Web Application',
   'Website Maintenance',
   'Other',
 ] as const;
@@ -23,9 +23,9 @@ const BUDGET_RANGES = [
 ] as const;
 
 const AUDIT_FOCUS_AREAS = [
-  'Full Teardown (Speed, SEO & Conversions)',
-  'Google Ranking & SEO Audit',
+  'Full Teardown (Speed, UI & Conversions)',
   'Mobile Experience & Speed Score',
+  'Lead Capture & Inquiry Bottlenecks',
   'Why Competitors Are Beating Me',
 ] as const;
 
@@ -262,7 +262,7 @@ export default function EarlyAccessCTA(): React.JSX.Element {
                   <div className="mb-6">
                     <h3 className="text-xl font-bold mb-1" style={{ color: '#111827' }}>
                       {mode === 'audit'
-                        ? 'Request Your Free Website & SEO Audit'
+                        ? 'Request Your Free 5-Min Website Audit'
                         : 'Request a Fixed-Price Project Quote'}
                     </h3>
                     <p className="text-xs sm:text-sm text-gray-500">

@@ -7,7 +7,7 @@ const LINKS = {
     { label: 'E-Commerce Stores', href: '#services' },
     { label: 'Landing Pages', href: '#services' },
     { label: 'Website Redesigns', href: '#services' },
-    { label: 'SEO Optimization', href: '#services' },
+    { label: 'Custom Web Apps', href: '#services' },
     { label: 'Website Maintenance', href: '#services' },
   ],
   Navigation: [
