@@ -109,7 +109,7 @@ export default function HeroSection(): React.JSX.Element {
           </p>
 
           {/* CTA buttons */}
-          <div className="flex flex-wrap items-center justify-center gap-3.5 mb-10">
+          <div className="flex flex-wrap items-center justify-center gap-3.5 mb-4">
             <Link href="#contact" id="hero-cta-primary" className="btn-primary text-base px-7 py-3.5">
               Get a Free Quote
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -118,6 +118,17 @@ export default function HeroSection(): React.JSX.Element {
             </Link>
             <Link href="#portfolio" id="hero-cta-secondary" className="btn-ghost text-base px-7 py-3.5">
               View Portfolio
+            </Link>
+          </div>
+
+          {/* Low-friction Lead Magnet Link */}
+          <div className="mb-8">
+            <Link
+              href="#audit"
+              className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors bg-blue-50/80 hover:bg-blue-100/60 px-4 py-2 rounded-full border border-blue-200"
+            >
+              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+              Already have a website or Facebook page? Get a Free 5-Min Audit &rarr;
             </Link>
           </div>
 

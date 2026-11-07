@@ -27,8 +27,8 @@ export default function FinalCTA(): React.JSX.Element {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
-            <Link href="#portfolio" id="final-cta-portfolio" className="btn-ghost text-base py-3 px-7">
-              View Our Work
+            <Link href="#audit" id="final-cta-audit" className="btn-ghost text-base py-3 px-7">
+              Claim Free 5-Min Audit
             </Link>
           </div>
         </ScrollReveal>
