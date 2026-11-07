@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 // Configure your business contact details here:
 const WHATSAPP_NUMBER = '639000000000'; // Replace with your WhatsApp number (e.g. 639171234567 for Philippines)
-const MESSENGER_USERNAME = 'sortech'; // Replace with your Facebook Page username (e.g. sortech or your page ID)
+const MESSENGER_USERNAME = '61590794884653'; // Facebook Page ID
 const PREFILLED_MESSAGE = encodeURIComponent(
   "Hi Sortech! 👋 I'm interested in getting a website for my business. Can I get a quick quote?"
 );
